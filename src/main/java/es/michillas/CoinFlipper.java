@@ -8,6 +8,8 @@ public class CoinFlipper {
 
     private boolean inGame = true;
 
+    private int flipAmount = 2;
+
     private CoinFlipper() {
         // Llama al método donde está main loop del juego
         this.gameLoop();
@@ -46,7 +48,7 @@ public class CoinFlipper {
                 e.printStackTrace();
             }
 
-            for (int i = 0; i <= 2; i++) {
+            for (int i = 0; i <= flipAmount; i++) {
                 this.flipAnimation();
             }
 
