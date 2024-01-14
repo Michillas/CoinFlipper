@@ -4,15 +4,14 @@ import java.io.*;
 import java.time.LocalTime;
 
 public class CoinFlipper {
-    private static CoinFlipper instance; // patrón Singleton (yo hago patrones Singleton pa hacerme el chulo)
+    private static CoinFlipper instance;
 
     private boolean inGame = true;
 
     private int flipAmount = 2;
 
     private CoinFlipper() {
-        // Llama al método donde está main loop del juego
-        this.gameLoop();
+        
     }
 
     public static CoinFlipper getInstance() {
