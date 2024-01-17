@@ -1,5 +1,5 @@
-# CoinFlipper
-Basic Coin Flipper in Java. For luck enthusiasts
+<h1 align="center">🪙 CoinFlipper</h1>
+<p align="center">Basic Coin Flipper in Java. For luck enthusiasts</p>
 
 ## Screenshot of the command line
 ![image](https://github.com/Michillas/CoinFlipper/assets/140931203/8760a011-dacf-42ba-b6e6-e1b062752a44)
